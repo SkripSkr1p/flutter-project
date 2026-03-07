@@ -1,0 +1,43 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_declarations: true
+    prefer_single_quotes: true
+    always_use_package_imports: true
+    sort_constructors_first: true
+    sort_unnamed_constructors_first: true
+    omit_local_variable_types: false
+    unnecessary_this: true
+    lines_longer_than_80_chars: false
+    avoid_empty_else: true
+    avoid_dynamic_calls: true
+    null_closures: true
+
+    prefer_final_locals: true
+    prefer_const_constructors_in_immutables: true
+    prefer_final_in_for_each: true
+    avoid_init_to_null: true
+    unnecessary_new: true
+    unnecessary_const: true
+    unnecessary_lambdas: true
+    prefer_expression_function_bodies: false
+    prefer_collection_literals: true
+
+    always_declare_return_types: true
+    require_trailing_commas: true
+    curly_braces_in_flow_control_structures: true
+    prefer_typing_uninitialized_variables: true
+
+    file_names: true
+    library_prefixes: true
+    use_key_in_widget_constructors: true
+
+    avoid_unnecessary_containers: true
+    use_full_hex_values_for_flutter_colors: true
+    sized_box_for_whitespace: true
+
+    avoid_print: true
+    avoid_web_libraries_in_flutter: true
